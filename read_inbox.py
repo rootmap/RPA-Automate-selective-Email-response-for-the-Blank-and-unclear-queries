@@ -1,5 +1,6 @@
 import imaplib
 import email
+import send_email
 
 host = 'imap.zoho.com'
 username= 'sakibul@divergenttechbd.com'
@@ -50,6 +51,7 @@ try:
         for row in my_inbox:
             if len(str(row.get('subject')).strip()) == 0 or len(str(row.get('body').strip())) == 0:
                 print("row: ", row_key, ", subject/body is empty")
+                send_email.send_mail()
             # elif len(str(row.get('body').strip())) == 0:
             #     print("body is empty")
             # print(row_key)
