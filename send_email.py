@@ -6,15 +6,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # assign key email aspects to variables for easier future editing
-subject = "Test"
-body = "This is a test email"
+subject = "Blank Mail Test"
+body = "Dear Respected User,\n\nThis is a blank message. Please clear your queries.\n\nHave a great day!\n\nSincerely yours\nSakibul Islam"
 sender_email = "sakibul@divergenttechbd.com"
 #receiver_email = "fahad@divergenttechbd.com"
-receiver_email = "sak2241@gmail.com"
+# receiver_email = "sak2241@gmail.com"
 #file = "automate_report.pdf" # in the same directory as script
 password = "S@K!#$20ul"
 
-def send_mail():
+def send_mail(receiver_email):
     # Create the email head (sender, receiver, and subject)
     email = MIMEMultipart()
     email["From"] = sender_email
