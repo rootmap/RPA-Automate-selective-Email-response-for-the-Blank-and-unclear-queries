@@ -1,6 +1,7 @@
 Dear ${PERSON_NAME},
 
-This is a test message.
+This is a blank message. Please clear your queries.
+
 Have a great day!
 
 Sincerely yours

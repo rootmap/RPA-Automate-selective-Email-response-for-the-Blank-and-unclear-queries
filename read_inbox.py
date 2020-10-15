@@ -11,7 +11,8 @@ def get_inbox():
     mail = imaplib.IMAP4_SSL(host)
     mail.login(username, password)
     mail.select("inbox")
-    print("total inbox: " + mail.select("inbox").__str__())
+    status, inbox = mail.select("inbox")
+    print("total inbox: "+ str(inbox[0]))
     _, search_data = mail.search(None, 'UNSEEN')
     my_messages = []
 
@@ -51,7 +52,7 @@ try:
         for row in my_inbox:
             if len(str(row.get('subject')).strip()) == 0 or len(str(row.get('body').strip())) == 0:
                 print("row: ", row_key, ", subject/body is empty")
-                send_email.send_mail()
+                send_email.send_mail(str(row.get('from')).strip())
             # elif len(str(row.get('body').strip())) == 0:
             #     print("body is empty")
             # print(row_key)
