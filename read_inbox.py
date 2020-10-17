@@ -52,7 +52,7 @@ try:
         for row in my_inbox:
             if len(str(row.get('subject')).strip()) == 0 or len(str(row.get('body').strip())) == 0:
                 print("row: ", row_key, ", subject/body is empty")
-                send_email.send_mail(str(row.get('from')).strip())
+                send_email.send_mail(str(row.get('from')))
             # elif len(str(row.get('body').strip())) == 0:
             #     print("body is empty")
             # print(row_key)
