@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba4f454-c307-44ae-97ce-99ab3ba6b392" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/message.txt" beforeDir="false" afterPath="$PROJECT_DIR$/message.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/read_inbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_inbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/send_email.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/read_inbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="-682">
+              <caret line="9" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="9" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -99,12 +97,12 @@
         <option value="$PROJECT_DIR$/read_email.py" />
         <option value="$PROJECT_DIR$/read_blank_email.py" />
         <option value="$PROJECT_DIR$/message.txt" />
-        <option value="$PROJECT_DIR$/read_inbox.py" />
         <option value="$PROJECT_DIR$/send_email.py" />
+        <option value="$PROJECT_DIR$/read_inbox.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -280,7 +278,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.50818455" />
@@ -292,7 +290,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32225913" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.43698853" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.25204584" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4053156" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -387,12 +385,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/read_blank_email.py">
+    <entry file="file://$PROJECT_DIR$/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="9" column="138" selection-start-line="9" selection-start-column="138" selection-end-line="9" selection-end-column="138" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#19#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -407,20 +405,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/send_email.py">
+    <entry file="file://$PROJECT_DIR$/read_blank_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="138" selection-start-line="9" selection-start-column="138" selection-end-line="9" selection-end-column="138" />
+        <state relative-caret-position="292">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <element signature="e#19#45#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read_inbox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="-682">
+          <caret line="9" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="9" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
