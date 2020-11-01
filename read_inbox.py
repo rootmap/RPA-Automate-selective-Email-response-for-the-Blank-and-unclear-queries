@@ -1,7 +1,5 @@
 import imaplib
 import email
-from pprint import pprint
-
 import send_email
 
 host = 'imap.zoho.com'
@@ -51,14 +49,10 @@ try:
         my_inbox = get_inbox()
         print(my_inbox)
         row_key = 1
-
         for row in my_inbox:
-            pprint(row.get('html_body'))
             if len(str(row.get('subject')).strip()) == 0 or len(str(row.get('body').strip())) == 0:
                 print("row: ", row_key, ", subject/body is empty")
-                send_email.send_mail(str(row.get('from')))
-                print('body:', str(row.get('body')))
-                # pprint(row.get('html_body'))
+                send_email.send_mail(str(row.get('from')).strip())
             # elif len(str(row.get('body').strip())) == 0:
             #     print("body is empty")
             # print(row_key)
